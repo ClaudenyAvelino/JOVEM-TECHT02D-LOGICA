@@ -79,7 +79,8 @@ Consiste em utilizar máquina(s) para executar o procedimento desejado de forma 
 ## IDE – Ambiente Integrado de Desenvolvimento
 
 **Exemplos:**  
-- C/C++ : Code Blocks  
+- Visualg
+- Visual Studio Code 
 - Java : Eclipse, NetBeans  
 - C# : Microsoft Visual Studio  
 
