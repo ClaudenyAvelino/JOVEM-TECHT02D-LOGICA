@@ -72,7 +72,7 @@ Consiste em utilizar máquina(s) para executar o procedimento desejado de forma 
   - Português: `O cachorro está com fome.` ✅ / `A cachorro está com fome.` ❌  
   - Programação: `x = 2 + y;` ✅ / `x = + 2 y;` ❌  
 
-**Exemplos de linguagens:** C, Pascal, C++, Java, C#, Python, Ruby, PHP, JavaScript  
+**Exemplos de linguagens:** C, Portugol, C++, Java, C#, Python, Ruby, PHP, JavaScript  
 
 ---
 
