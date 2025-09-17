@@ -98,7 +98,7 @@ Consiste em utilizar máquina(s) para executar o procedimento desejado de forma 
 - **Compilação**: código fonte → compilador → código objeto → executável  
   - Ex: C, C++  
 - **Interpretação**: código fonte → interpretador → execução sob demanda  
-  - Ex: PHP, JavaScript, Python, Ruby  
+  - Ex: PHP, JavaScript, Python, Portugol 
 - **Abordagem híbrida**: compilação + máquina virtual (bytecode)  
   - Ex: Java (JVM), C# (.NET Framework)  
 
