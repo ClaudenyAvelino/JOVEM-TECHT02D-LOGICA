@@ -1,4 +1,4 @@
-# 📘 Introdução à Programação
+# 📘 Introdução à lógica de programação.
 
 **Professor:** Claudeny Avelino  
 **E-mail:** claudeny.avelino@gmail.com  
