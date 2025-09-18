@@ -387,3 +387,179 @@ Implemente no VisualG:
 
 ✍️ **Próxima aula:** Estruturas Condicionais
 
+---
+
+# Curso Jovem Tech – Algoritmos e Lógica de Programação  
+## Aula – Estrutura Condicional  
+
+📧 **Contato:** claudeny.avelino@gmail.com  
+👨‍🏫 **Professor:** Claudeny Avelino  
+
+---
+
+## Conteúdo da Aula  
+- Expressões comparativas  
+- Expressões lógicas  
+- Estruturas condicionais (simples, composta e encadeada)  
+- Estrutura escolha  
+- Exercícios práticos  
+
+---
+
+## Expressões Comparativas  
+
+### Operadores comparativos em VisualG  
+| Operador | Significado   |
+|----------|---------------|
+| >        | maior         |
+| <        | menor         |
+| >=       | maior ou igual|
+| <=       | menor ou igual|
+| =        | igual         |
+| <>       | diferente     |
+
+### Exemplos  
+Suponha `x = 5`:  
+- `x > 0` → Verdadeiro  
+- `x = 3` → Falso  
+- `10 <= 30` → Verdadeiro  
+- `x <> 2` → Verdadeiro  
+
+---
+
+## Expressões Lógicas  
+
+### Operadores lógicos em VisualG  
+| Operador | Descrição |
+|----------|-----------|
+| e        | Verdadeiro se todas as condições forem verdadeiras |
+| ou       | Verdadeiro se pelo menos uma condição for verdadeira |
+| nao      | Verdadeiro se a condição for falsa |
+
+### Exemplos  
+Suponha `x = 5`:  
+- `(x <= 20) e (x = 10)` → Falso  
+- `(x > 0) e (x <> 3)` → Verdadeiro  
+- `(x = 10) ou (x <= 20)` → Verdadeiro  
+- `nao (x = 10)` → Verdadeiro  
+
+---
+
+## Estrutura Condicional  
+
+### Conceito  
+A **estrutura condicional** é usada para executar blocos de comandos dependendo de uma condição lógica.  
+
+### Estrutura Simples  
+```pseudocode
+se <condição> entao
+   <comando 1>
+   <comando 2>
+fimse
+```
+
+### Estrutura Composta  
+```pseudocode
+se <condição> entao
+   <comando 1>
+   <comando 2>
+senao
+   <comando 3>
+   <comando 4>
+fimse
+```
+
+### Estrutura Encadeada  
+```pseudocode
+se <condição 1> entao
+   <comando 1>
+senao se <condição 2> entao
+   <comando 2>
+senao se <condição 3> entao
+   <comando 3>
+senao
+   <comando 4>
+fimse fimse fimse
+```
+
+---
+
+## Estrutura "Escolha"  
+
+Quando há várias opções, pode-se usar a estrutura `escolha` (semelhante ao switch-case).  
+
+### Sintaxe  
+```pseudocode
+escolha variavel
+   caso valor1
+      comando1
+   caso valor2, valor3
+      comando2
+   outrocaso
+      comando3
+fimescolha
+```
+
+### Exemplo – Dias da Semana  
+```pseudocode
+Algoritmo "teste_dias"
+Var
+   x : inteiro
+   dia : caractere
+Inicio
+   leia(x)
+   escolha x
+      caso 1
+         dia <- "domingo"
+      caso 2
+         dia <- "segunda"
+      caso 3
+         dia <- "terca"
+      caso 4
+         dia <- "quarta"
+      caso 5
+         dia <- "quinta"
+      caso 6
+         dia <- "sexta"
+      caso 7
+         dia <- "sabado"
+      outrocaso
+         dia <- "valor invalido"
+   fimescolha
+   escreval("Dia da semana: ", dia)
+Fimalgoritmo
+```
+
+---
+
+## Exercício – Fórmula de Bhaskara  
+
+Condições:  
+- O coeficiente `a` não pode ser zero.  
+- O delta não pode ser negativo.  
+
+```pseudocode
+delta <- b^2 - 4 * a * c
+se delta < 0 entao
+   escreval("Impossível calcular, delta negativo.")
+senao se a = 0 entao
+   escreval("Impossível calcular, coeficiente a igual a zero.")
+senao
+   x1 <- (-b + RaizQ(delta)) / (2 * a)
+   x2 <- (-b - RaizQ(delta)) / (2 * a)
+   escreval("X1 = ", x1)
+   escreval("X2 = ", x2)
+fimse fimse fimse
+```
+
+---
+
+## Atividade Final  
+1. Escreva um algoritmo que receba um número inteiro e informe se ele é **par** ou **ímpar**.  
+2. Escreva um algoritmo que leia a idade de uma pessoa e informe se ela é **menor de idade**, **maior de idade** ou **idoso**.  
+3. Refaça o exercício dos dias da semana utilizando a estrutura `escolha`.  
+
+---
+
+✍️ **Próxima aula:** Estruturas de Repetição
+
