@@ -563,3 +563,153 @@ fimse fimse fimse
 
 ✍️ **Próxima aula:** Estruturas de Repetição
 
+---
+
+# Curso Jovem Tech – Algoritmos e Lógica de Programação  
+## Aula  – Estruturas Repetitivas  
+
+📧 **Contato:** claudeny.avelino@gmail.com  
+👨‍🏫 **Professor:** Claudeny Avelino  
+
+---
+
+## Conteúdo da Aula  
+- Estrutura repetitiva **enquanto**  
+- Estrutura repetitiva **para**  
+- Estrutura repetitiva **repita-até**  
+- Exercícios propostos  
+
+---
+
+## Estrutura Repetitiva "enquanto"  
+
+A estrutura **enquanto** repete um bloco de comandos enquanto uma condição for verdadeira.  
+
+📌 **Quando usar:** quando **não se sabe previamente** a quantidade de repetições.  
+
+### Sintaxe  
+```pseudocode
+enquanto <condição> faca
+   <comando 1>
+   <comando 2>
+fimenquanto
+```
+
+### Exemplo  
+```pseudocode
+Algoritmo "teste_enquanto"
+Var
+   x, soma : inteiro
+Inicio
+   soma <- 0
+   escreva("Digite o primeiro numero: ")
+   leia(x)
+   enquanto x <> 0 faca
+      soma <- soma + x
+      escreva("Digite outro numero: ")
+      leia(x)
+   fimenquanto
+   escreval("SOMA = ", soma)
+Fimalgoritmo
+```
+
+---
+
+## Estrutura Repetitiva "para"  
+
+A estrutura **para** repete um bloco de comandos para um intervalo de valores.  
+
+📌 **Quando usar:** quando **se sabe previamente** a quantidade de repetições.  
+
+### Sintaxe  
+```pseudocode
+para variavel de valor_inicial ate valor_final [passo N] faca
+   <comando 1>
+   <comando 2>
+fimpara
+```
+
+### Exemplo  
+```pseudocode
+Algoritmo "teste_para"
+Var
+   N, i, x, soma : inteiro
+Inicio
+   escreva("Quantos numeros serao digitados? ")
+   leia(N)
+   soma <- 0
+   para i de 1 ate N faca
+      escreva("Digite um numero: ")
+      leia(x)
+      soma <- soma + x
+   fimpara
+   escreval("SOMA = ", soma)
+Fimalgoritmo
+```
+
+### Exemplo – Contagem progressiva  
+```pseudocode
+para i de 1 ate 5 faca
+   escreval("Valor de i: ", i)
+fimpara
+```
+
+### Exemplo – Contagem regressiva  
+```pseudocode
+para i de 5 ate 1 passo -1 faca
+   escreval("Valor de i: ", i)
+fimpara
+```
+
+---
+
+## Estrutura Repetitiva "repita-até"  
+
+A estrutura **repita-até** executa o bloco de comandos **ao menos uma vez**, pois a condição é verificada **no final**.  
+
+### Sintaxe  
+```pseudocode
+repita
+   <comando 1>
+   <comando 2>
+ate <condição>
+```
+
+### Exemplo  
+```pseudocode
+Algoritmo "exemplo_repita_ate"
+Var
+   C, F : real
+   resp : caractere
+Inicio
+   repita
+      escreva("Digite a temperatura em Celsius: ")
+      leia(C)
+      F <- 9.0 * C / 5.0 + 32.0
+      escreval("Equivalente em Fahrenheit: ", F:6:1)
+      escreva("Deseja repetir (s/n)? ")
+      leia(resp)
+   ate resp <> "s"
+Fimalgoritmo
+```
+
+---
+
+## Resumo da Aula  
+
+- **Enquanto**: usar quando não se sabe a quantidade de repetições.  
+- **Para**: usar quando se sabe a quantidade de repetições (contagens).  
+- **Repita-até**: garante pelo menos uma execução, condição no final.  
+
+---
+
+## Atividade Final  
+1. Escreva um algoritmo que leia um número inteiro positivo e mostre sua tabuada usando o **para**.  
+2. Escreva um algoritmo que leia números até que o usuário digite 0 e mostre a **média** deles.  
+3. Escreva um algoritmo que leia notas de alunos até que o usuário digite "n" e mostre a **média da turma**.  
+
+---
+
+✍️ **Próxima aula:** Vetores (Arrays)
+
+
