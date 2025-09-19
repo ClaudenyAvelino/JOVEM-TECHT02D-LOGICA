@@ -385,7 +385,8 @@ Implemente no VisualG:
 
 ## Exercício
 
-- [Introdução à lógica de programação](docs/03-estrutura-sequencial-exercicios.pdf)
+- [Hora da pratica](https://1drv.ms/b/c/c939bce3230fd75c/ETEsK_zjQpRBufGZwVomJt8BpJYMc4FYN_OImn8h0G332Q?e=mbI9p1)
+
 
 ---
 
