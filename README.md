@@ -144,7 +144,7 @@ Fimalgoritmo
 
 ---
 
-# Curso Jovem Tech – Algoritmos e Lógica de Programação  
+# 📘 Curso Jovem Tech – Algoritmos e Lógica de Programação  
 ## Aula – Estrutura Sequencial  
 
 📧 **Contato:** claudeny.avelino@gmail.com  
