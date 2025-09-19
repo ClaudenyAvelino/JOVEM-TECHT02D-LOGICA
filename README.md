@@ -381,11 +381,11 @@ Fimalgoritmo
 ## Atividade Final  
 Implemente no VisualG:  
 1. Um programa que calcule a área e o preço de um terreno.  
-2. Um programa que calcule área, perímetro e diagonal de um retângulo.  
+2. Um programa que calcule área, perímetro e diagonal de um retângulo.
 
----
+## Exercício
 
-✍️ **Próxima aula:** Estruturas Condicionais
+- [Introdução à lógica de programação](docs/03-estrutura-sequencial-exercicios.pdf)
 
 ---
 
@@ -558,10 +558,6 @@ fimse fimse fimse
 1. Escreva um algoritmo que receba um número inteiro e informe se ele é **par** ou **ímpar**.  
 2. Escreva um algoritmo que leia a idade de uma pessoa e informe se ela é **menor de idade**, **maior de idade** ou **idoso**.  
 3. Refaça o exercício dos dias da semana utilizando a estrutura `escolha`.
-
-## Exercício
-
-- [Introdução à lógica de programação](docs/03-estrutura-sequencial-exercicios.pdf)
 
 ---
 
