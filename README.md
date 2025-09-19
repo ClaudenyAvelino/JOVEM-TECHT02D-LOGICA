@@ -385,7 +385,8 @@ Implemente no VisualG:
 
 ## Exercício
 
-- [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/ETEsK_zjQpRBufGZwVomJt8BpJYMc4FYN_OImn8h0G332Q?e=mbI9p1)
+<a href="https://1drv.ms/b/c/c939bce3230fd75c/ETEsK_zjQpRBufGZwVomJt8BpJYMc4FYN_OImn8h0G332Q?e=mbI9p1" target="_blank">Hora Da Prática</a>
+
 
 
 ---
