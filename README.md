@@ -385,7 +385,7 @@ Implemente no VisualG:
 
 ## Exercício
 
-- [Hora da pratica](https://1drv.ms/b/c/c939bce3230fd75c/ETEsK_zjQpRBufGZwVomJt8BpJYMc4FYN_OImn8h0G332Q?e=mbI9p1)
+- [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/ETEsK_zjQpRBufGZwVomJt8BpJYMc4FYN_OImn8h0G332Q?e=mbI9p1)
 
 
 ---
@@ -560,6 +560,11 @@ fimse fimse fimse
 2. Escreva um algoritmo que leia a idade de uma pessoa e informe se ela é **menor de idade**, **maior de idade** ou **idoso**.  
 3. Refaça o exercício dos dias da semana utilizando a estrutura `escolha`.
 
+## Exercício
+
+- [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/EaDT1QAlezVBiDdBR7pvTeUB0ZRRn7aU-UKf9p7mAn5PZw?e=WVL1Up)
+
+
 ---
 
 # Curso Jovem Tech – Algoritmos e Lógica de Programação  
@@ -703,7 +708,11 @@ Fimalgoritmo
 ## Atividade Final  
 1. Escreva um algoritmo que leia um número inteiro positivo e mostre sua tabuada usando o **para**.  
 2. Escreva um algoritmo que leia números até que o usuário digite 0 e mostre a **média** deles.  
-3. Escreva um algoritmo que leia notas de alunos até que o usuário digite "n" e mostre a **média da turma**.  
+3. Escreva um algoritmo que leia notas de alunos até que o usuário digite "n" e mostre a **média da turma**.
+
+## Exercício
+
+- [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/EQbukmlHIZVHp5NHyLG5XQABaiDU4aSnCMZ7KfUHG-C53Q?e=47UrgJ)
 
 ---
 
@@ -711,10 +720,4 @@ Fimalgoritmo
 
 ---
 
-## Conteúdo
-
-- [Introdução à lógica de programação](docs/introducao_logica.pdf)
-- [Algoritmos e variáveis](docs/algoritmos_variaveis.pdf)
-- [Estruturas condicionais](docs/estruturas_condicionais.pdf)
-- [Estruturas de repetição](docs/estruturas_repeticao.pdf)
 
