@@ -557,11 +557,11 @@ fimse fimse fimse
 ## Atividade Final  
 1. Escreva um algoritmo que receba um número inteiro e informe se ele é **par** ou **ímpar**.  
 2. Escreva um algoritmo que leia a idade de uma pessoa e informe se ela é **menor de idade**, **maior de idade** ou **idoso**.  
-3. Refaça o exercício dos dias da semana utilizando a estrutura `escolha`.  
+3. Refaça o exercício dos dias da semana utilizando a estrutura `escolha`.
 
----
+## Exercício
 
-✍️ **Próxima aula:** Estruturas de Repetição
+- [Introdução à lógica de programação](docs/03-estrutura-sequencial-exercicios.pdf)
 
 ---
 
@@ -712,4 +712,12 @@ Fimalgoritmo
 
 ✍️ **Próxima aula:** Vetores (Arrays)
 
+---
+
+## Conteúdo
+
+- [Introdução à lógica de programação](docs/introducao_logica.pdf)
+- [Algoritmos e variáveis](docs/algoritmos_variaveis.pdf)
+- [Estruturas condicionais](docs/estruturas_condicionais.pdf)
+- [Estruturas de repetição](docs/estruturas_repeticao.pdf)
 
