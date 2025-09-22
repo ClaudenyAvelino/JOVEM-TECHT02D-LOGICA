@@ -730,7 +730,7 @@ Um vetor é uma coleção de dados indexada, unidimensional, homogênea, e de ta
 - **Unidimensional**: Possui apenas uma dimensão.
 - **Homogênea**: Todos os dados são do mesmo tipo.
 - **Tamanho fixo**: Deve ser alocado previamente e sua quantidade de elementos é fixa.
-
+---
 #### Exemplo:
 | 0   | 1    | 2      | 3    |
 |-----|------|--------|------|
@@ -740,19 +740,20 @@ Um vetor é uma coleção de dados indexada, unidimensional, homogênea, e de ta
 
 Como declarar um vetor?
 
-```plaintext
+```
+
 A: vetor [0..9] de inteiro
 B: vetor [0..4] de real
 C: vetor [0..7] de caractere
-
-
+```
+Exemplo:
 A[3] <- 10
 Para i de 0 até 4 faça
     B[i] <- i + 10
 Fim para
 C[1] <- "Maria"
-
-
+```
+```
 Como acessar os elementos de um vetor?
 
 A[3] <- 10
@@ -761,6 +762,9 @@ B[i] <- i + 10
 
 C[1] <- "Maria"
 
+```
+```
+
 Problema exemplo
 
 Fazer um programa para ler um número inteiro positivo N (máximo = 10), depois ler N números quaisquer e armazená-los em um vetor. Em seguida, mostrar na tela todos os elementos do vetor.
@@ -768,11 +772,15 @@ Fazer um programa para ler um número inteiro positivo N (máximo = 10), depois 
 Exemplo de entrada e saída:
 
 Entrada:
+```
+```
 Quantos números você vai digitar? 4
 Digite um número: 10.5
 Digite um número: 4.2
 Digite um número: -7.1
 Digite um número: 15.0
+
+```
 
 Saída:
 NÚMEROS DIGITADOS:
@@ -861,9 +869,9 @@ idades	18	20	22	19	21
 alturas	1.60	1.75	1.80	1.70	1.65
 
 Cálculo: x = cont * 100 / N
-
+```
 ## Exercício
 
 - [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/EZmAjyC0-bdDgEEibOguA9sBUANU8hKiM9PKr0brynnz-g?e=MgEdh0)
 
-
+```
