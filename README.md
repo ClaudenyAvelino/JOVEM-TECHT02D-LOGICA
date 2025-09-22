@@ -716,8 +716,154 @@ Fimalgoritmo
 
 ---
 
-✍️ **Próxima aula:** Vetores (Arrays)
+# Curso Completo de Algoritmos e Lógica de Programação
 
----
+## Capítulo: Vetores
+**Prof. Claudeny Avelino**  
+**Email:** claudeny.avelino@gmail.com
+
+### O que são Vetores?
+
+Um vetor é uma coleção de dados indexada, unidimensional, homogênea, e de tamanho fixo.
+
+- **Indexada**: Os elementos são acessados por meio de índices.
+- **Unidimensional**: Possui apenas uma dimensão.
+- **Homogênea**: Todos os dados são do mesmo tipo.
+- **Tamanho fixo**: Deve ser alocado previamente e sua quantidade de elementos é fixa.
+
+#### Exemplo:
+| 0   | 1    | 2      | 3    |
+|-----|------|--------|------|
+| Maria | João | Carlos | Ana  |
+
+### Memória RAM
+
+Como declarar um vetor?
+
+```plaintext
+A: vetor [0..9] de inteiro
+B: vetor [0..4] de real
+C: vetor [0..7] de caractere
+
+
+A[3] <- 10
+Para i de 0 até 4 faça
+    B[i] <- i + 10
+Fim para
+C[1] <- "Maria"
+
+
+Como acessar os elementos de um vetor?
+
+A[3] <- 10
+
+B[i] <- i + 10
+
+C[1] <- "Maria"
+
+Problema exemplo
+
+Fazer um programa para ler um número inteiro positivo N (máximo = 10), depois ler N números quaisquer e armazená-los em um vetor. Em seguida, mostrar na tela todos os elementos do vetor.
+
+Exemplo de entrada e saída:
+
+Entrada:
+Quantos números você vai digitar? 4
+Digite um número: 10.5
+Digite um número: 4.2
+Digite um número: -7.1
+Digite um número: 15.0
+
+Saída:
+NÚMEROS DIGITADOS:
+10.5
+4.2
+-7.1
+15.0
+
+Algoritmo:
+Algoritmo "teste_vetor"
+Var
+    vet: vetor [0..9] de real
+    N, i : inteiro
+Início
+    escreva("Quantos números você vai digitar? ")
+    leia(N)
+    para i de 0 até N-1 faça
+        escreva("Digite um número: ")
+        leia(vet[i])
+    fim para
+    escreval
+    escreval("NÚMEROS DIGITADOS:")
+    para i de 0 até N-1 faça
+        escreval(vet[i]:8:1)
+    fim para
+Fimalgoritmo
+
+Resumo da aula
+
+Vetor: Coleção de dados.
+
+Tamanho fixo.
+
+Arranjo unidimensional.
+
+Indexada.
+
+Homogênea.
+
+Declaração: B: vetor [0..4] de real.
+
+Acesso: B[3] <- 20.
+
+Problema exemplo: Ler e imprimir na tela um vetor.
+
+Exercícios Propostos - PARTE 1: Testes de Mesa com Vetores
+
+a <- 10
+b <- 20
+c <- (a + b) / 2
+c <- c - 40
+v[4] <- a + b + c
+a <- 2
+enquanto a < 6 faça
+    v[a] <- 10 * a
+    a <- a + 1
+fimenquanto
+a <- 7
+b <- a - 6
+enquanto b < a faça
+    v[b] <- b * a
+    b <- b + 2
+fimenquanto
+para a de 0 até 2 faça
+    v[a] <- 5
+    w[a] <- a
+fim para
+a <- 2
+b <- 5
+para c de 0 até 2 faça
+    v[c] <- a
+    w[c] <- c * v[c]
+fim para
+v[0] <- 2
+para d de 1 até 3 faça
+    v[d] <- v[d - 1] * 2
+fim para
+para d de 0 até 3 faça
+    w[d] <- v[d] * 10
+fim para
+
+Discussão do exercício "alturas"
+N	0	1	2	3	4
+nomes	"Maria"	"João"	"Carlos"	"Ana"	"Joaquim"
+idades	18	20	22	19	21
+alturas	1.60	1.75	1.80	1.70	1.65
+
+Cálculo: x = cont * 100 / N
+
+## Exercício
+
+- [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/EZmAjyC0-bdDgEEibOguA9sBUANU8hKiM9PKr0brynnz-g?e=MgEdh0)
 
 
