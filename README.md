@@ -808,4 +808,156 @@ fimalgoritmo
 
 - [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/EZmAjyC0-bdDgEEibOguA9sBUANU8hKiM9PKr0brynnz-g?e=MgEdh0)
 
-```
+# Curso Completo de Algoritmos e Lógica de Programação
+
+## Capítulo: Matrizes
+
+📧 **Professor:** Claudeny Avelino - [claudeny.avelino@gmail.com](mailto:claudeny.avelino@gmail.com)  
+📚 **Aula:** Matrizes - Estrutura Bidimensional
+
+---
+
+## 📌 O que são Matrizes?
+
+Uma **matriz** é uma coleção de dados com as seguintes características:
+
+- 📌 **Indexada**: os elementos são acessados por meio de índices.
+- 📏 **Bidimensional**: possui linhas e colunas.
+- 🔢 **Homogênea**: todos os dados são do mesmo tipo.
+- 📐 **Tamanho fixo**: o tamanho é definido antes do uso e não pode ser alterado depois.
+
+💡 Também são conhecidas como **arrays bidimensionais**.
+
+---
+
+## 🧠 Conceitos Fundamentais
+
+### ✅ Criação de uma matriz
+
+algoritmo
+A: vetor [0..2, 0..3] de inteiro
+✅ Acesso a elementos
+algoritmo
+Copiar código
+A[1,2] <- 10
+🔍 Interpretação: O elemento da linha 1, coluna 2 da matriz A recebe o valor 10.
+
+💻 Exemplo de Algoritmo: Leitura e Impressão de uma Matriz
+Problema:
+Ler dois inteiros M e N (máximo 5), depois ler uma matriz de M x N com inteiros, e imprimir a matriz na tela.
+
+Algoritmo em Portugol:
+algoritmo
+Copiar código
+Algoritmo "teste_matriz"
+Var
+  mat: vetor [0..4, 0..4] de inteiro
+  M, N, i, j: inteiro
+
+Inicio
+  escreva("Quantas linhas vai ter a matriz? ")
+  leia(M)
+
+  escreva("Quantas colunas vai ter a matriz? ")
+  leia(N)
+
+  para i de 0 ate M-1 faca
+    para j de 0 ate N-1 faca
+      escreva("Elemento [", i, ",", j, "]: ")
+      leia(mat[i, j])
+    fimpara
+  fimpara
+
+  escreval()
+  escreval("MATRIZ DIGITADA:")
+  
+  para i de 0 ate M-1 faca
+    para j de 0 ate N-1 faca
+      escreva(mat[i, j], " ")
+    fimpara
+    escreval()
+  fimpara
+
+Fimalgoritmo
+📘 Resumo da Aula
+✅ Matriz: coleção de dados com tamanho fixo
+
+✅ Homogênea: mesmo tipo de dados
+
+✅ Indexada: acesso por índices
+
+✅ Bidimensional: linhas e colunas
+
+✅ Criação: A: vetor [0..2, 0..3] de inteiro
+
+✅ Acesso: A[1,2] <- 10
+
+✅ Exercício Prático: ler e imprimir uma matriz
+
+🧪 Exercícios Propostos (Parte 1)
+Preenchimento automático:
+
+algoritmo
+Copiar código
+n <- 3
+para i de 0 ate n-1 faca
+  para j de 0 ate n-1 faca
+    mat[i, j] <- 1 + i + j
+  fimpara
+fimpara
+Preenchimento com acumulador:
+
+algoritmo
+Copiar código
+m <- 2
+n <- 4
+x <- 0
+para i de 0 ate m-1 faca
+  x <- x + i
+  para j de 0 ate n-1 faca
+    x <- x + j
+    mat[i, j] <- x
+  fimpara
+fimpara
+Atribuição em linha, coluna e diagonal:
+
+algoritmo
+Copiar código
+m <- 5
+para i de 0 ate m-1 faca
+  mat[3, i] <- 10
+fimpara
+
+para i de 0 ate m-1 faca
+  mat[i, 4] <- 10 * i
+  mat[i, i] <- 50
+fimpara
+Soma por linha com vetor auxiliar:
+
+algoritmo
+Copiar código
+n <- 3
+para i de 0 ate n-1 faca
+  x <- 0
+  para j de 0 ate n-1 faca
+    mat[i, j] <- i + j
+    x <- x + mat[i, j]
+  fimpara
+  v[i] <- x
+fimpara
+✅ Soluções dos Exercícios
+Você pode acessar o repositório com as soluções completas no GitHub:
+
+🔗 https://github.com/ClaudenyAvelino/JOVEM-TECHT02D-LOGICA
+
+👨‍🏫 Contato
+📧 Professor Claudeny Avelino
+📬 claudeny.avelino@gmail.com
+🔗 GitHub: ClaudenyAvelino
+
+---
+
+## Exercício
+
+- [Hora Da Prática](https://1drv.ms/b/c/c939bce3230fd75c/EaUtWemkUA1Fm6vAbjIxJYMBySjvtI39QXc11ZxzdYQAGQ?e=5KUXxl)
+---
