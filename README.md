@@ -110,7 +110,8 @@ Consiste em utilizar máquina(s) para executar o procedimento desejado de forma 
 - **VisualG**: IDE para editar e interpretar programas em Portugol  
 
 📌 Referências:  
-- [Download VisualG](https://sourceforge.net/projects/visualg30/)  
+- [Download VisualG](https://sourceforge.net/projects/visualg30/)
+- [MANUAL DO VISUALG](https://www.inf.ufsc.br/~bosco.sobral/ensino/ine5201/Visualg2_manual.pdf)
 - Prof. Cláudio Morgado de Souza  
 - Prof. Antonio Carlos Nicolodi  
 
